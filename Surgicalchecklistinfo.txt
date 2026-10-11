@@ -1,0 +1,35 @@
+# Data observations
+
+## Units
+
+unit	unit_floor	unit_beds
+OR-1	2		10
+OR-2	3		12
+OR-3	3		8
+OR-4	4		10
+
+- Number of unique units: 4
+- Units: OR-1, OR-2, OR-3, OR-4
+- Each unit has one consistent floor and bed count.
+
+## Surgeons 
+
+surgeon_id	surgeon_name	surgeon_specialty	surgeon_years_exp
+S01		Maria Patel	Orthopedic Surgery	11
+S02		Sofia Rossi	Orthopedic Surgery	7
+S03		Maria Gupta	Orthopedic Surgery	5
+S04		Elena Lee	Ophthalmology		4
+S05		Aisha Garcia	Ophthalmology		9
+S06		Sofia Adams	General Surgery		22
+S07		Aisha Gupta	General Surgery		9
+S08		Raj Lee		General Surgery		10
+S09		Mei Ivanov	Obstetrics		11
+S10		Aisha Hassan	Obstetrics		25
+S11		David Tanaka	Orthopedic Surgery	11
+S12		James Silva	General Surgery		13
+
+-Number of surgeons: 12
+
+## Patients
+
+-Number of Patients: 20000
