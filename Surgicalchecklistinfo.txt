@@ -33,3 +33,108 @@ S12		James Silva	General Surgery		13
 ## Patients
 
 -Number of Patients: 20000
+
+					Obs	co obs	compli%
+surgical site marked			19616	15083	76.9
+specimen labeled correctly		19573	15143	77.4
+informed consent confirmed		19599	18039	92.0
+patient identity verified		19592	18020	92.0
+instrument count correct		19604	18061	92.1
+post-op handover completed		19582	18032	92.1
+anesthesia safety check completed	19614	18087	92.2
+allergy band verified			19586	18083	92.3
+antibiotic prophylaxis given		19594	18082	92.3
+
+Site marked and specimen labelling are the weakest compliance.
+
+unit_name	observations	compliant_observations	compliance_pct
+OR-3		44010		36389			82.7
+OR-2		43521		39496			90.8
+OR-4		44312		40240			90.8
+OR-1		44517		40505			91.0
+
+The weakest OR in terms of compliance is OR-3.
+
+procedure_month	observations	compliant_observations	compliance_pct
+2026-01		30370		26148			86.1
+2026-02		27065		23615			87.3
+2026-03		30726		27082			88.1
+2026-04		29316		26071			88.9
+2026-05		29308		26610			90.8
+2026-06		29575		27104			91.6
+
+Compliance improved by about 5 percent from January to June. 
+
+procedure_category	observations	compliant_observations	compliance_pct
+urgent			35396		31305			88.4	
+elective		105307		93618			88.9
+emergency		35657		31707			88.9
+
+Very minimal difference between procedure category and compliance.
+
+risk_level	observations	complaint_observations	compliance_pct
+high		34744		30792			88.6
+medium		71053		63012			88.7
+low		70563		62826			89.0
+
+Very minimal difference between risk level and compliance.
+
+unit_name	item_name		observations	compliant_observations	compliance_pct
+OR-1	surgical site marked			4947		3893		78.7
+OR-1	specimen labeled correctly		4929		3985		80.8
+OR-1	instrument count correct		4954		4636		93.6
+OR-1	post-op handover completed		4942		4649		94.1
+OR-1	informed consent confirmed		4931		4643		94.2
+OR-1	allergy band verified			4941		4660		94.3
+OR-1	patient identity verified		4954		4673		94.3
+OR-1	anesthesiasafetycheckcompleted		4955		4676		94.4
+OR-1	antibiotic prophylaxis given		4964		4690		94.5	
+OR-2	specimen labeled correctly		4835		3789		78.4
+OR-2	surgical site marked			4857		3826		78.8
+OR-2	post-op handover completed		4817		4515		93.7
+OR-2	patient identity verified		4820		4531		94.0
+OR-2	instrument count correct		4833		4552		94.2
+OR-2	informed consent confirmed		4842		4566		94.3
+OR-2	allergy band verified			4841		4575		94.5
+OR-2	anesthesia safety check completed	4840		4574		94.5
+OR-2	antibiotic prophylaxis given		4836		4568		94.5
+OR-3	specimen labeled correctly		4900		3438		70.2
+OR-3	surgical site marked			4901		3486		71.1
+OR-3	informed consent confirmed		4891		4182		85.5
+OR-3	patient identity verified		4885		4189		85.8
+OR-3	anesthesia safety check completed	4888		4200		85.9
+OR-3	antibiotic prophylaxis given		4877		4211		86.3
+OR-3	instrument count correct		4879		4212		86.3
+OR-3	post-op handover completed		4892		4230		86.5
+OR-3	allergy band verified			4897		4241		86.6
+OR-4	surgical site marked			4911		3878		79.0
+OR-4	specimen labeled correctly		4909		3931		80.1
+OR-4	antibiotic prophylaxis given		4917		4613		93.8
+OR-4	patient identity verified		4933		4627		93.8
+OR-4	allergy band verified			4907		4607		93.9
+OR-4	anesthesia safety check completed	4931		4637		94.0
+OR-4	post-op handover completed		4931		4638		94.1
+OR-4	informed consent confirmed		4935		4648		94.2
+OR-4	instrument count correct		4938		4661		94.4
+	
+
+OR-3 is consistently complying less than the other ORS and significantly lower for site marked and specimen labelling. That also happens to be a consistent weak area for each OR.
+
+
+staff_role		observations	compliant_observations	compliance_pct
+Anesthesia Assistant	21124		18728			88.7
+Scrub Nurse		35361		31348			88.7
+OR Attendant		21374		18970			88.8
+Surgical Resident	63326		56271			88.9
+Circulating Nurse	35175		31313			89.0
+
+There is also very little difference in terms of compliance between the different staff roles.
+
+procedure_type	procedures	avg_scheduled_min	avg_actual_min	avg_difference_min
+cataract surgery	4050		30.0		34.9		4.9
+hip replacement		3940		119.9		124.8		4.9
+knee arthroscopy	3953		45.1		50.1		5.0
+C-section		4014		44.9		50.0		5.1
+appendectomy		4043		60.1		65.4		5.2
+
+There is also very little difference in the avg difference in minutes. 
